@@ -60,10 +60,9 @@ for t in test:
         if total_pmi == t.AnswerRightEnding:
             right_answers += 1
     total_answers += 1
-    print("Total right answer so far", str(right_answers))
-    print("Total answer so far", str(total_answers))
 
+print("Total right answer", str(right_answers))
+print("Total answer", str(total_answers))
 percentage = right_answers / total_answers * 100
-percentage += '%'
-print("The correct percentage:", percentage)
+print("The correct percentage:", str(percentage) + '%')
 
