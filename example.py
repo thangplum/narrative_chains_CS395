@@ -64,5 +64,6 @@ for t in test:
     print("Total answer so far", str(total_answers))
 
 percentage = right_answers / total_answers * 100
-print("The correct percentage:", str(percentage))
+percentage += '%'
+print("The correct percentage:", percentage)
 
